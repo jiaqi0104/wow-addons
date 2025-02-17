@@ -229,7 +229,7 @@ function Minimap:StyleMinimap()
                      MiniMapTracking:SetParent(Minimap)
                      MiniMapTracking:SetFrameStrata("HIGH")
                      MiniMapTracking:ClearAllPoints()
-                     MiniMapTracking:SetPoint("BOTTOMLEFT", Minimap, "BOTTOMLEFT", -3, 1)
+                     MiniMapTracking:SetPoint("TOPLEFT", Minimap, "TOPLEFT", -3, 3)
                  end
 
                  -- 通用样式设置
